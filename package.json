@@ -9,7 +9,7 @@
   "keywords": ["Vite","Vue3","typescript","ElementPlus"],
   "author": "zykk",
   "bin": {
-    "zykk": "bin/index.js"
+    "todo": "bin/index.js"
   },
   "files": [
     "bin",
