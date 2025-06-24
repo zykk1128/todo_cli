@@ -32,7 +32,7 @@ export const clone = async (url: string, projectName: string, options: string[])
             estimate: 7000, // 预计下载时间
         });
         // 下面就是一些相关的提示
-        goodPrinter();
+        // goodPrinter();
         console.log();
         console.log(chalk.blueBright(`==================================`));
         console.log(chalk.blueBright(`=== 欢迎使用 todo-cli 脚手架 ===`));
