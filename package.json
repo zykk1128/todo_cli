@@ -14,7 +14,7 @@
   "files": [
     "bin",
     "dist",
-    "README.md",
+    "README.md"
   ],
   "license": "ISC",
   "description": "todo_cli脚手架",
