@@ -2,7 +2,7 @@ import {Command} from 'commander';
 import {version} from '../package.json';
 import {create} from './command/create';
 // import { update } from './command/update';
-const program = new Command('pokemon');
+const program = new Command('todo');
 program.version(version, '-v --version');
 
 program

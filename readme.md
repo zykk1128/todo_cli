@@ -1,7 +1,35 @@
-25ef73eda84c82eb4ca86b2cae5a601464b6897ae41710ebafb66ff178ed9c9c
-5853c1db57894f6f22128ef0064437134fe4f39560f1e8687b4065b087b607cc
-4679e17f6f0ee193fef28ed441cf8b9c23b7e853fc533b5efa6cd8910f2e29e1
-05090298c59f344adbdaf4e048f403c5449230f684223964947fd3a86c64298b
-d3b7402b17dd1411b76d5d534fa2f8d8160132a210d4f9278279634544a968c0
+#  todo-cli
+![Npm 版本](https://img.shields.io/badge/todo-cli-green)
 
-双认证
+## 📖简介
+- 用于快速搭建前端项目的命令行工具
+
+## 📕 模板
+-  ✅ 快速生成 [Vue3+TS+Vite+ElementPlus+Pinia+Axios+Mock的模板](git@gitee.com:sakyu-kk/admin-pro.git)
+
+## 📦 安装
+
+```bash
+npm install todo-cli -g
+```
+## 🚩使用
+
+```bash
+# 使用模板创建新项目
+todo create 
+
+# 执行项目文件夹名称并选择模板创建新项目
+todo create [projectName]
+
+# 更新脚手架到最新版本
+todo update
+
+# 查看脚手架版本
+todo -v
+todo --version
+
+```
+
+### 更新记录
+2023-12-26 更新脚手架版本到v0.1.2
+- 添加了移动端的模板下载选项
