@@ -88,8 +88,6 @@ export async function create(projectName?: string) {
     if (!projectName) {
         projectName = await input({ message: '请输入项目名称' });
     }
-    
-    
 
     // 如果文件夹存在，则提示是否覆盖
     const filePath = path.resolve(process.cwd(), projectName);
