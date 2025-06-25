@@ -66,10 +66,10 @@ export const checkVersion = async (name: string, version: string) => {
     const need = gt(latestVersion, version);
     if (need) {
         console.warn(
-            `检查到dawei最新版本： ${chalk.blackBright(latestVersion)}，当前版本是：${chalk.blackBright(version)}`
+            `检查到zykk最新版本： ${chalk.blackBright(latestVersion)}，当前版本是：${chalk.blackBright(version)}`
         );
         console.log(
-            `可使用： ${chalk.yellow('npm install dawei-cli@latest')}，或者使用：${chalk.yellow('dawei update')}更新`
+            `可使用： ${chalk.yellow('npm install zykk-cli@latest')}，或者使用：${chalk.yellow('zykk update')}更新`
         );
     }
     return need;
